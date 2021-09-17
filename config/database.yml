@@ -84,7 +84,7 @@ test:
 #  url: <%= ENV['POSTGRESQL_ADDON_URI'] %>
 #  database: rails-garden-manager_production
 #  username: rails-garden-manager_production
-i#  password: <%= ENV['rails-garden-manager_DATABASE_PASSWORD'] %>
+#  password: <%= ENV['rails-garden-manager_DATABASE_PASSWORD'] %>
 #
 # HEROKU
 production:
