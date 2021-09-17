@@ -78,6 +78,15 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+# CLEVER 
+#production:
+#  <<: *default
+#  url: <%= ENV['POSTGRESQL_ADDON_URI'] %>
+#  database: rails-garden-manager_production
+#  username: rails-garden-manager_production
+i#  password: <%= ENV['rails-garden-manager_DATABASE_PASSWORD'] %>
+#
+# HEROKU
 production:
   <<: *default
   url: <%= ENV['DATABASE_URL'] %>
